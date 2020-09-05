@@ -11,3 +11,10 @@ learn-spring-note
 + 书中很多很多地方讲解不完整，需要自行解决才能完成
     * 参考 google & stack overflow
     * https://github.com/habuma/spring-in-action-5-samples
+    
+ + JPA domain-specific language (DSL)
+    * verb+[subject]+By+predicate
+    * findByDeliveryZip()
+    * readOrdersByDeliveryZipAndPlacedAtBetween()
+    * many operators
+    * @Query 注解 有些查询通过方法命名很难实现，使用注解明确方法调用时要执行的查询
