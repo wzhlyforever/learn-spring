@@ -18,3 +18,11 @@ spring:
     console:
       path: /h2-console
       enabled: true
+
+taco:
+  orders:
+    pageSize: 5
+
+logging:
+  level:
+    tacos: DEBUG
